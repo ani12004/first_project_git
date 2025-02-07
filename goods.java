@@ -113,6 +113,7 @@ public class goods {
                 }
             }
             if(fun == 12) break;
+            System.out.println("hello");
             System.out.println("do you want to use it again : (y|n)");
             String in = lena.next();
             if(in.equalsIgnoreCase("n")){
