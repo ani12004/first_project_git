@@ -19,11 +19,10 @@ class Calc{
     }
 
 }
-public class calculator {
+public class goods {
     public static void main(String[] args) {
         Calc obj = new Calc();
         Scanner lena = new Scanner(System.in);
-        System.out.println("             Radhe Radhe                ");
         System.out.println();
         System.out.println("1.add          2.sub          3.div \n4.product      5.square root  6.sin \n7.cos          8.tan          9.exponential \n10.logarithm   11.maximun     12.exit \nenter the function : ");
         int fun = lena.nextInt();
